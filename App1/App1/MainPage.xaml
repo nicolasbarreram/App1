@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <ActivityIndicator Color="Aqua"
+                           IsRunning="True">
+            
+        </ActivityIndicator>
+        <BoxView Color="Blue"
+                 WidthRequest="80"
+                 HeightRequest="40"
+                 HorizontalOptions="Center"/>
+        <BoxView Color="Gold"
+                 WidthRequest="90"
+                 HeightRequest="100"
+                 HorizontalOptions="Center"/>
+        <BoxView Color="Gold"
+                 WidthRequest="20"
+                 HeightRequest="40"
+                 HorizontalOptions="Center"/>
+        <Button Text="xamarin" 
+                TextColor="AntiqueWhite"
+                BorderColor="AliceBlue"
+                BackgroundColor="DarkGreen"
+                FontSize="Large"
+                FontAttributes="Bold"
+                BorderWidth="2"
+                Image="if_Joystick_3428071.png"
+                ContentLayout="Top,10"
+                HorizontalOptions="Center"/>
+        
+        
+
+
+        <Label Text="holaa" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+       
+    </StackLayout>
+
+</ContentPage>

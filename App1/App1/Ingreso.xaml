@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Ingreso">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                <Image Source="if_Joystick_3428071.png"
+                 Aspect="Fill"/>
+
+
+                <Label
+                HorizontalOptions="Center"
+                Text="xamarin forms"
+                TextColor="Aqua"
+                VerticalTextAlignment="Center"
+                HorizontalOptions="End"
+                BackgroundColor="Blue"
+                WidthRequest="200"
+                />
+                <Label
+                VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Text="Xamarin desarrola aplicaciones"
+                  TextColor="Aqua"
+                    VerticalTextAlignment="End"
+                    BackgroundColor="Blue"
+                    WidthRequest="200"
+                    HeightRequest="300"
+                    LineBreakMode="HeadTruncation"
+                />
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

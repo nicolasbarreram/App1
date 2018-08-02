@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button HorizontalOptions="Center"
+                    BackgroundColor="Gray"
+                    Text="enviar"
+                    TextColor="Aqua"
+                    BorderColor="Beige"
+                    BorderWidth="3"
+                    FontSize="Large"
+                    FontAttributes="Italic"
+                    Clicked="BtnEnviarClicked"/>
+            <DatePicker x:Name="dtpFecha"
+                        Format="dd/MM/yyyy"
+                        />
+            <Editor x:Name="edComentario"
+                    HeightRequest="100"
+                    Text="escribir aqui"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="Cyan"/>
+            <Entry Placeholder="password"
+                       IsPassword="True"
+                       Keyboard="email"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
